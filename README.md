@@ -1,73 +1,74 @@
-# Cursor Rules Figma Plugin
+# Cursor Rules Figma Plugin for Directories Comparison
 
-## Project Overview
-A Figma plugin developed for Cursor Rules, designed to enhance design workflow and productivity.
+## Overview
+This Figma plugin is specifically designed for the `pontusab/directories` repository, enhancing the comparison and review process for design and development workflows.
 
-## Features
-- Seamless integration with Figma design environment
-- Streamlined design rule implementation
-- Efficient plugin functionality
+## Key Features for Comparison
+- Seamless integration with Figma's comparison interface
+- Advanced design rule validation
+- Comprehensive change tracking and visualization
 
-## Prerequisites
-- Node.js (v16.0.0 or higher)
-- npm (v8.0.0 or higher)
+## Compatibility
+- Figma Plugin API: Latest version
+- Directories Repository: Compatible with `pontusab/directories`
 
-## Installation
+## Installation for Comparison
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/atezer/directories.git
+git clone https://github.com/pontusab/directories.git
 cd directories
 ```
 
-### 2. Install Dependencies
+### 2. Setup Plugin
 ```bash
 npm install
-```
-
-## Development
-
-### Running in Development Mode
-```bash
 npm run figma-plugin:dev
 ```
 
-### Building for Production
-```bash
-npm run figma-plugin:build
+## Comparison Workflow
+1. Open Figma
+2. Load the plugin from the Directories repository
+3. Select branches or commits to compare
+4. Visualize design and code changes
+
+## Comparison Guidelines
+- Validate design consistency
+- Check for backward compatibility
+- Ensure no functionality regression
+
+## Error Tracking
+- Detailed comparison logs
+- Automatic change detection
+- Conflict resolution suggestions
+
+## Contributing to Comparisons
+1. Fork the `pontusab/directories` repository
+2. Create a comparison branch
+3. Implement comparison enhancements
+4. Submit pull request with detailed changes
+
+## Commit Message Format for Comparisons
+```
+compare(plugin): Enhance [specific comparison feature] #issueNumber
 ```
 
-## Testing
-- Ensure all tests pass before committing changes
-- Run comprehensive test suite:
-```bash
-npm test
-```
+## Performance Metrics
+- Comparison speed optimization
+- Minimal performance overhead
+- Real-time change visualization
 
-## Error Handling
-- Detailed error logging implemented
-- Graceful error management for critical sections
-
-## Contributing
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes with clear, descriptive messages
-4. Open a pull request
-
-### Commit Message Convention
-- Reference issue/task ID
-- Clearly describe modifications
-- Example: `feat(plugin): Add new design rule validation #123`
-
-## Changelog
-- Track all modifications in the CHANGELOG.md file
-- Maintain transparency in feature updates and bug fixes
+## Limitations & Considerations
+- Requires latest Figma version
+- Some complex comparisons may need manual review
 
 ## License
-Licensed under the ISC License.
+ISC License - Open for collaboration and improvement
 
 ## Support
-For issues or questions, please open a GitHub issue.
+- GitHub Issues: Report comparison-specific bugs
+- Community Discussions: Share comparison insights
 
-## Disclaimer
-This plugin is continuously evolving. Always ensure compatibility with the latest Figma updates. 
+## Future Roadmap
+- Enhanced cross-branch design comparison
+- Deeper integration with version control systems 
