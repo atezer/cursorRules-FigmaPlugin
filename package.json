@@ -1,20 +1,13 @@
 {
-  "name": "cursorrules-figmaplugin",
+  "name": "atezer-monorepo",
   "version": "1.0.0",
-  "description": "Cursor Rules Figma Plugin",
-  "main": "index.js",
+  "description": "Atezer Monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
-    "dev": "webpack --mode=development --watch",
-    "build": "webpack --mode=production"
-  },
-  "keywords": ["figma", "plugin", "cursor"],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@figma/plugin-typings": "^1.108.0",
-    "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4",
-    "ts-loader": "^9.4.3",
-    "typescript": "^5.1.6"
+    "figma-plugin:dev": "npm run dev -w @atezer/figma-plugin",
+    "figma-plugin:build": "npm run build -w @atezer/figma-plugin"
   }
 }
